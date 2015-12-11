@@ -1,0 +1,67 @@
+body{
+    background-image: url(img/bg3.png);
+    background-size: cover;
+    background-repeat: round;
+}
+ul li{
+    list-style-type: none;
+}
+
+html{
+    display: none;
+}
+.step{
+    color:#ffffff;
+    text-align: center;
+}
+#menu{
+    position: fixed;
+    left:0;
+    bottom: 50%;
+}
+#menu ul li{
+    margin-left: -40px;
+    width: 100px;
+    list-style-type: none;
+    background-color: #9ab522;
+    cursor: pointer;
+}
+#menu ul li:first-child{
+    border-top-right-radius: 50px;
+}
+#menu ul li:last-child{
+    border-bottom-right-radius: 50px;
+}
+#menu ul li:hover{
+    background-color: #7ac7dd;
+}
+#heart h1{
+    font-size: 200px;
+    color: #ff0026;
+}
+#home h1{
+    font-size: 100px;
+    color: #ff0026;
+    text-shadow: 5px 5px 5px #7ac7dd;
+}
+#home p{
+    color: #ff0026;
+    font-size: 50px;
+}
+#come_www ul{
+    text-align: center;
+}
+#come_www ul li{
+    display: inline-block;
+}
+#what h1,#why h1,#who h1{
+    margin-top: -50px;
+    margin-left: 50px;
+    text-align: left;
+}
+#why-1 p,#who p{
+    text-align: left;
+}
+#warning h1{
+    color: #ff0026;
+}
